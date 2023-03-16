@@ -1,8 +1,7 @@
 # include <stdio.h>
-# include <stdlib.h>
 
 /**
- * This is the main function 
+ *This is the main function
  */
 
 int main(void)
