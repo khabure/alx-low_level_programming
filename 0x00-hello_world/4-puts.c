@@ -1,7 +1,11 @@
 # include <stdio.h>
 
 /**
- *This is the main function
+ *main - Entry point
+ *
+ *Description: 'desribing programming'
+ *
+ *Return: Always 0 (Success)
  */
 
 int main(void)
