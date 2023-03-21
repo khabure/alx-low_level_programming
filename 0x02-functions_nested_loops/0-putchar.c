@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -15,6 +15,6 @@ int main(void)
 
 	for (n = 0; n < 9; n++)
 	{
-	putchar(str[n]);
+	_putchar(str[n]);
 	}
 }
