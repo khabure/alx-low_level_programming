@@ -13,7 +13,7 @@ void jack_bauer(void)
 	int a;
 	int b;
 	int c;
-	int d;
+	int d = 0;
 
 	for (a = 0; a <= 2; a++)
 	{
