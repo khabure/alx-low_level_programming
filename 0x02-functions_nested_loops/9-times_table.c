@@ -20,7 +20,7 @@ void times_table(void)
 		{
 			ans = a * b;
 			_putchar((ans / 10) + '0');
-			_putchar((i % 10) + '0');
+			_putchar((ans % 10) + '0');
 			_putchar(44);
 			_putchar(32);
 		}
