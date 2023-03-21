@@ -10,12 +10,11 @@
 
 int print_alphabet(void)
 {
-	char str[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int n;
+	int i;
 
-	for (n = 0; n < 26; n++)
+	for (i = 97; i < 122; 1++)
 	{
-		_putchar(str[n]);
+		_putchar(i);
 	}
-	return (0);
+	_putchar('\n');
 }
