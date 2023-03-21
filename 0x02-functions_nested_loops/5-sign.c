@@ -9,7 +9,7 @@
  * Return: Always a string (Success)
  */
 
-char print_sign(int n)
+char* print_sign(int n)
 {
 	if (n > 0)
 	{
