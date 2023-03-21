@@ -19,7 +19,10 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 		{
 			ans = a * b;
+			if (ans > 9)
+			{
 			_putchar((ans / 10) + '0');
+			}
 			_putchar((ans % 10) + '0');
 			_putchar(44);
 			_putchar(32);
