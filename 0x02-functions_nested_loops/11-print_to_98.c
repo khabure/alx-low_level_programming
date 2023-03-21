@@ -24,5 +24,5 @@ void print_to_98(int n)
 		_puchar(32);
 	}
 	_putchar((98 / 10) + '0');
-	_puchar((98 % 10) + '0');
+	_putchar((98 % 10) + '0');
 }
