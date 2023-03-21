@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - checks if character is in lower case
+ * _islower - checks if character is in lower case
  *
  * Description: 'the program's description'
  *
