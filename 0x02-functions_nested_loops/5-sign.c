@@ -6,17 +6,20 @@
  * Description: 'the program's description'
  *
  * @n: the inputed character
- * Return: Always a string (Success)
+ * Return: Always 0 (Success)
  */
 
-char* print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
-		return ("+");
+		_putchar("+");
+		return (0);
 	} else if (n < 0)
 	{
-		return ("-");
+		_putchar("-");
+		return (0);
 	}
-	return ("0");
+	_putchar("0");
+	return (0);
 }
