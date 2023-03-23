@@ -9,12 +9,8 @@ void more_numbers(void)
 {
 	int i;
 
-	for (i = 0; i <= 140; i = i + 10)
+	for (i = 0; i <= 14; i++)
 	{
-		if (i >= 100)
-		{
-			_putchar(i / 100);
-		}
 		if (i >= 10)
 		{
 			_putchar(i / 10);
@@ -22,4 +18,5 @@ void more_numbers(void)
 		_putchar(i % 10);
 
 	}
+	_putchar('\n');
 }
