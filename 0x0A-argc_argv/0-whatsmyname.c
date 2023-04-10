@@ -9,5 +9,7 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf(argv[0]);
+	printf("%s\n", *argv);
+
+	return (0);
 }
